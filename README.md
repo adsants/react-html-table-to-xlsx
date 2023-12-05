@@ -1,5 +1,9 @@
+# THIS IS NPM from https://www.npmjs.com/package/react-html-table-to-excel?activeTab=readme
+# https://github.com/zsusac/ReactHTMLTableToExcel
+# i create new NPM Because i need xlsx format
+
 # ReactHTMLTableToExcel
-Provides a client side generation of Excel (.xls) file from HTML table element.
+Provides a client side generation of Excel (.xlsx) file from HTML table element.
 
 [![Build Status](https://travis-ci.org/zsusac/ReactHTMLTableToExcel.svg?branch=master)](https://travis-ci.org/zsusac/ReactHTMLTableToExcel)
 
@@ -17,9 +21,9 @@ npm install --save react-html-table-to-excel
 
 ## Features
 
-* Download HTML table as Excel file in .xls format
+* Download HTML table as Excel file in .xlsx format
 * No server side code
-* Set desired .xls filename and sheet
+* Set desired .xlsx filename and sheet
 * Set desired class name and id for styling
 * Supported IE 11
 
@@ -54,13 +58,13 @@ class Test extends Component {
         return (
             <div>
                 <ReactHTMLTableToExcel
-                    id="test-table-xls-button"
-                    className="download-table-xls-button"
-                    table="table-to-xls"
-                    filename="tablexls"
-                    sheet="tablexls"
-                    buttonText="Download as XLS"/>
-                <table id="table-to-xls">
+                    id="test-table-xlsx-button"
+                    className="download-table-xlsx-button"
+                    table="table-to-xlsx"
+                    filename="tablexlsx"
+                    sheet="tablexlsx"
+                    buttonText="Download as XLSX"/>
+                <table id="table-to-xlsx">
                     <tr>
                         <th>Firstname</th>
                         <th>Lastname</th>
