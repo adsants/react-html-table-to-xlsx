@@ -1,0 +1,23 @@
+{
+  "name": "react-html-table-to-xlsx",
+  "version": "1.0.0",
+  "description": "Export HTML Table to xlsx Fromat",
+  "main": "index.js",
+  "scripts": {
+    "test": "Test Command"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adsants/react-html-table-to-xlsx.git"
+  },
+  "keywords": [
+    "EXport",
+    "xlsx"
+  ],
+  "author": "adsants",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adsants/react-html-table-to-xlsx/issues"
+  },
+  "homepage": "https://github.com/adsants/react-html-table-to-xlsx#readme"
+}
